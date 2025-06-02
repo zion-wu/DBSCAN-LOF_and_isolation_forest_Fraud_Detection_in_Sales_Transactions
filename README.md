@@ -14,13 +14,15 @@ Fraudulent sales reporting by representatives can lead to significant financial 
 
 ## 🔍 Dataset
 
-The dataset is a systematic sample from a sales transaction case study by Torgo (2017, 2021). It consists of:
+The dataset used in this project is a **systematic sample of sales transactions** from a case study reported by Luis Torgo (2017, 2021). The full dataset is derived from the **DMwR2** package, available on the Comprehensive R Archive Network (CRAN). Reference:
 
+- Torgo, Luis. 2021. *Package DMwR2*. [CRAN](https://CRAN.R-project.org/package=DMwR2). Source of the full dataset from which the systematic sample has been drawn.
+
+The dataset consists of:
 - **Training set**: 133,731 unlabeled sales transactions.
 - **Test set**: 15,732 labeled transactions (1,270 fraud, 14,462 normal).
 
 Each transaction includes:
-
 - `Prod`: Product ID.
 - `Quant`: Quantity sold.
 - `Val`: Total sale value.
